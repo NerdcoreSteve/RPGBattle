@@ -1,0 +1,10 @@
+Use the following tutorial to show views/index.html
+https://codeforgeek.com/2015/01/render-html-file-expressjs/
+
+get rid of pug
+
+get rid of frontend/js stuff including react
+
+any other stuff I'm not using any more?
+
+write build script so I can just run npm run build
