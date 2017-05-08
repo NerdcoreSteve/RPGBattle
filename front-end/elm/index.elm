@@ -23,10 +23,10 @@ update : Msg -> Model -> Model
 update msg model =
   case msg of
     Increment ->
-      model + 1
+      model + 2
 
     Decrement ->
-      model - 1
+      model - 2
 
 
 -- VIEW
@@ -34,7 +34,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
   div []
-    [ button [ onClick Decrement ] [ text "-" ]
+    [ button [ onClick Decrement ] [ text "--" ]
     , div [] [ text (toString model) ]
-    , button [ onClick Increment ] [ text "+" ]
+    , button [ onClick Increment ] [ text "++" ]
     ]

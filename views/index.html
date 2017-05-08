@@ -7886,9 +7886,9 @@ var _user$project$Main$update = F2(
 	function (msg, model) {
 		var _p0 = msg;
 		if (_p0.ctor === 'Increment') {
-			return model + 1;
+			return model + 2;
 		} else {
-			return model - 1;
+			return model - 2;
 		}
 	});
 var _user$project$Main$model = 0;
@@ -7909,7 +7909,7 @@ var _user$project$Main$view = function (model) {
 				},
 				{
 					ctor: '::',
-					_0: _elm_lang$html$Html$text('-'),
+					_0: _elm_lang$html$Html$text('--'),
 					_1: {ctor: '[]'}
 				}),
 			_1: {
@@ -7934,7 +7934,7 @@ var _user$project$Main$view = function (model) {
 						},
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html$text('+'),
+							_0: _elm_lang$html$Html$text('++'),
 							_1: {ctor: '[]'}
 						}),
 					_1: {ctor: '[]'}

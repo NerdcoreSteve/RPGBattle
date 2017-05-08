@@ -4,7 +4,7 @@
   "description": "The Repo for RPGBattle!",
   "main": "index.js",
   "scripts": {
-    "build": "browserify front-end/js/main.js -o public/js/main.js -t [ babelify --presets [ latest react ] --plugins [ transform-object-rest-spread ] ]"
+    "build": "cd front-end/elm; elm make index.elm --output ../../views/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "dependencies": {
     "babelify": "^7.3.0",
     "express": "^4.14.0",
-    "pug": "^2.0.0-beta6"
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
