@@ -10,9 +10,6 @@
     "type": "git",
     "url": "https://github.com/NerdcoreSteve/RPGBattle"
   },
-  "keywords": [
-    "rxjs"
-  ],
   "author": "Steve Smith",
   "license": "Apache-2.0",
   "homepage": "https://github.com/NerdcoreSteve/RPGBattle#readme",
@@ -21,9 +18,5 @@
     "express": "^4.14.0",
     "path": "^0.12.7"
   },
-  "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.20.2",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-react": "^6.16.0"
-  }
+  "devDependencies": {}
 }
